@@ -1,0 +1,751 @@
+ LuaLibDll
+
+ Timestamp is 65dfd21a (Thu Feb 29 07:38:50 2024)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00015020H .text                   CODE
+ 0002:00000000 00000158H .idata$5                DATA
+ 0002:00000158 00000698H .rdata                  DATA
+ 0002:000007f0 00000028H .idata$2                DATA
+ 0002:00000818 00000014H .idata$3                DATA
+ 0002:0000082c 00000158H .idata$4                DATA
+ 0002:00000984 00000342H .idata$6                DATA
+ 0002:00000cd0 00000a45H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCZ                DATA
+ 0003:00000008 00000004H .CRT$XIA                DATA
+ 0003:0000000c 00000004H .CRT$XIZ                DATA
+ 0003:00000010 00001dc0H .data                   DATA
+ 0003:00001dd0 00000054H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       _luaA_index                10001000 f   lapi.obj
+ 0001:00000037       _luaA_pushobject           10001037 f   lapi.obj
+ 0001:00000082       _lua_stackspace            10001082 f   lapi.obj
+ 0001:00000095       _lua_gettop                10001095 f   lapi.obj
+ 0001:000000a8       _lua_gettopindex           100010a8 f   lapi.obj
+ 0001:000000c0       _lua_settop                100010c0 f   lapi.obj
+ 0001:000000f8       _lua_remove                100010f8 f   lapi.obj
+ 0001:00000154       _lua_insert                10001154 f   lapi.obj
+ 0001:000001cb       _lua_pushvalue             100011cb f   lapi.obj
+ 0001:00000223       _lua_type                  10001223 f   lapi.obj
+ 0001:0000029c       _lua_typename              1000129c f   lapi.obj
+ 0001:000002c3       _lua_iscfunction           100012c3 f   lapi.obj
+ 0001:0000031e       _lua_isnumber              1000131e f   lapi.obj
+ 0001:00000381       _lua_isstring              10001381 f   lapi.obj
+ 0001:000003bd       _lua_tag                   100013bd f   lapi.obj
+ 0001:000003fb       _lua_equal                 100013fb f   lapi.obj
+ 0001:0000044b       _lua_lessthan              1000144b f   lapi.obj
+ 0001:000004a5       _lua_tonumber              100014a5 f   lapi.obj
+ 0001:000004fc       _lua_tostring              100014fc f   lapi.obj
+ 0001:00000553       _lua_strlen                10001553 f   lapi.obj
+ 0001:000005aa       _lua_tocfunction           100015aa f   lapi.obj
+ 0001:000005fa       _lua_touserdata            100015fa f   lapi.obj
+ 0001:0000063d       _lua_topointer             1000163d f   lapi.obj
+ 0001:0000068c       _lua_pushnil               1000168c f   lapi.obj
+ 0001:000006c4       _lua_pushnumber            100016c4 f   lapi.obj
+ 0001:0000070d       _lua_pushlstring           1000170d f   lapi.obj
+ 0001:00000761       _lua_pushstring            10001761 f   lapi.obj
+ 0001:00000797       _lua_pushcclosure          10001797 f   lapi.obj
+ 0001:000007b0       _lua_pushusertag           100017b0 f   lapi.obj
+ 0001:00000836       _lua_getglobal             10001836 f   lapi.obj
+ 0001:000008ac       _lua_gettable              100018ac f   lapi.obj
+ 0001:00000924       _lua_rawget                10001924 f   lapi.obj
+ 0001:0000099a       _lua_rawgeti               1000199a f   lapi.obj
+ 0001:00000a31       _lua_getglobals            10001a31 f   lapi.obj
+ 0001:00000a77       _lua_getref                10001a77 f   lapi.obj
+ 0001:00000b22       _lua_newtable              10001b22 f   lapi.obj
+ 0001:00000b70       _lua_setglobal             10001b70 f   lapi.obj
+ 0001:00000ba8       _lua_settable              10001ba8 f   lapi.obj
+ 0001:00000c0e       _lua_rawset                10001c0e f   lapi.obj
+ 0001:00000c93       _lua_rawseti               10001c93 f   lapi.obj
+ 0001:00000d13       _lua_setglobals            10001d13 f   lapi.obj
+ 0001:00000d3c       _lua_ref                   10001d3c f   lapi.obj
+ 0001:00000e32       _lua_rawcall               10001e32 f   lapi.obj
+ 0001:00000e58       _lua_getgcthreshold        10001e58 f   lapi.obj
+ 0001:00000e66       _lua_getgccount            10001e66 f   lapi.obj
+ 0001:00000e74       _lua_setgcthreshold        10001e74 f   lapi.obj
+ 0001:00000ea6       _lua_settag                10001ea6 f   lapi.obj
+ 0001:00000f17       _lua_unref                 10001f17 f   lapi.obj
+ 0001:00000f41       _lua_next                  10001f41 f   lapi.obj
+ 0001:00001009       _lua_getn                  10002009 f   lapi.obj
+ 0001:000010cb       _lua_concat                100020cb f   lapi.obj
+ 0001:0000110e       _lua_newuserdata           1000210e f   lapi.obj
+ 0001:00001170       _luaK_error                10002170 f   lcode.obj
+ 0001:0000118c       _luaK_jump                 1000218c f   lcode.obj
+ 0001:000011d6       _luaK_getlabel             100021d6 f   lcode.obj
+ 0001:00001228       _luaK_deltastack           10002228 f   lcode.obj
+ 0001:00001286       _luaK_kstr                 10002286 f   lcode.obj
+ 0001:000012a0       _luaK_number               100022a0 f   lcode.obj
+ 0001:000013d1       _luaK_adjuststack          100023d1 f   lcode.obj
+ 0001:00001404       _luaK_lastisopen           10002404 f   lcode.obj
+ 0001:0000146c       _luaK_setcallreturns       1000246c f   lcode.obj
+ 0001:000014c2       _luaK_storevar             100024c2 f   lcode.obj
+ 0001:00001531       _luaK_patchlist            10002531 f   lcode.obj
+ 0001:000016dd       _luaK_concat               100026dd f   lcode.obj
+ 0001:00001738       _luaK_goiftrue             10002738 f   lcode.obj
+ 0001:000019a7       _luaK_tostack              100029a7 f   lcode.obj
+ 0001:00001bca       _luaK_prefix               10002bca f   lcode.obj
+ 0001:00001c97       _luaK_infix                10002c97 f   lcode.obj
+ 0001:00001d1d       _luaK_posfix               10002d1d f   lcode.obj
+ 0001:00001de8       _luaK_code0                10002de8 f   lcode.obj
+ 0001:00001e01       _luaK_code1                10002e01 f   lcode.obj
+ 0001:00001e1c       _luaK_code2                10002e1c f   lcode.obj
+ 0001:00002470       _lua_setcallhook           10003470 f   ldebug.obj
+ 0001:0000248d       _lua_setlinehook           1000348d f   ldebug.obj
+ 0001:000024aa       _lua_getstack              100034aa f   ldebug.obj
+ 0001:00002543       _luaG_getline              10003543 f   ldebug.obj
+ 0001:00002659       _lua_getlocal              10003659 f   ldebug.obj
+ 0001:00002770       _lua_setlocal              10003770 f   ldebug.obj
+ 0001:0000280c       _lua_getinfo               1000380c f   ldebug.obj
+ 0001:00003267       _luaG_typeerror            10004267 f   ldebug.obj
+ 0001:000032d9       _luaG_binerror             100042d9 f   ldebug.obj
+ 0001:00003305       _luaG_ordererror           10004305 f   ldebug.obj
+ 0001:00003380       _luaD_init                 10004380 f   ldo.obj
+ 0001:000033ed       _luaD_checkstack           100043ed f   ldo.obj
+ 0001:00003454       _luaD_adjusttop            10004454 f   ldo.obj
+ 0001:000034c1       _luaD_lineHook             100044c1 f   ldo.obj
+ 0001:00003563       _luaD_callTM               10004563 f   ldo.obj
+ 0001:00003630       _luaD_call                 10004630 f   ldo.obj
+ 0001:0000392b       _lua_call                  1000492b f   ldo.obj
+ 0001:000039a4       _lua_dofile                100049a4 f   ldo.obj
+ 0001:00003c20       _lua_dobuffer              10004c20 f   ldo.obj
+ 0001:00003cb6       _lua_compilebuffer         10004cb6 f   ldo.obj
+ 0001:00003cdc       _lua_compilefile           10004cdc f   ldo.obj
+ 0001:00003cfa       _lua_execute               10004cfa f   ldo.obj
+ 0001:00003d18       _lua_dostring              10004d18 f   ldo.obj
+ 0001:00003d3e       _lua_error                 10004d3e f   ldo.obj
+ 0001:00003df8       _luaD_breakrun             10004df8 f   ldo.obj
+ 0001:00003eaf       _luaD_runprotected         10004eaf f   ldo.obj
+ 0001:00003f80       _luaF_newclosure           10004f80 f   lfunc.obj
+ 0001:00003fe9       _luaF_newproto             10004fe9 f   lfunc.obj
+ 0001:000040cb       _luaF_protook              100050cb f   lfunc.obj
+ 0001:00004131       _luaF_freeproto            10005131 f   lfunc.obj
+ 0001:000041e8       _luaF_freeclosure          100051e8 f   lfunc.obj
+ 0001:0000421d       _luaF_getlocalname         1000521d f   lfunc.obj
+ 0001:000042a0       _luaC_collect              100052a0 f   lgc.obj
+ 0001:00004754       _luaC_checkGC              10005754 f   lgc.obj
+ 0001:00004d30       _luaX_init                 10005d30 f   llex.obj
+ 0001:00004d80       _luaX_checklimit           10005d80 f   llex.obj
+ 0001:00004dc3       _luaX_syntaxerror          10005dc3 f   llex.obj
+ 0001:00004e0c       _luaX_error                10005e0c f   llex.obj
+ 0001:00004e5e       _luaX_token2str            10005e5e f   llex.obj
+ 0001:00004e94       _luaX_setinput             10005e94 f   llex.obj
+ 0001:00004fc1       _luaX_lex                  10005fc1 f   llex.obj
+ 0001:00006fd0       _luaM_growaux              10007fd0 f   lmem.obj
+ 0001:00007039       _luaM_realloc              10008039 f   lmem.obj
+ 0001:000070b0       _luaO_power2               100080b0 f   lobject.obj
+ 0001:000070d4       _luaO_equalObj             100080d4 f   lobject.obj
+ 0001:0000718b       _luaO_openspace            1000818b f   lobject.obj
+ 0001:000071de       _luaO_str2d                100081de f   lobject.obj
+ 0001:00007277       _luaO_verror               10008277 f   lobject.obj
+ 0001:000072c5       _luaO_chunkid              100082c5 f   lobject.obj
+ 0001:00007420       _luaY_parser               10008420 f   lparser.obj
+ 0001:00009d70       _lua_open                  1000ad70 f   lstate.obj
+ 0001:00009fa8       _lua_close                 1000afa8 f   lstate.obj
+ 0001:0000a0a0       _luaS_init                 1000b0a0 f   lstring.obj
+ 0001:0000a120       _luaS_freeall              1000b120 f   lstring.obj
+ 0001:0000a16c       _luaS_resize               1000b16c f   lstring.obj
+ 0001:0000a28b       _luaS_newlstr              1000b28b f   lstring.obj
+ 0001:0000a463       _luaS_newudata             1000b463 f   lstring.obj
+ 0001:0000a513       _luaS_createudata          1000b513 f   lstring.obj
+ 0001:0000a599       _luaS_new                  1000b599 f   lstring.obj
+ 0001:0000a5bb       _luaS_newfixed             1000b5bb f   lstring.obj
+ 0001:0000a5f0       _luaH_mainposition         1000b5f0 f   ltable.obj
+ 0001:0000a68d       _luaH_getnum               1000b68d f   ltable.obj
+ 0001:0000a6e9       _luaH_getstr               1000b6e9 f   ltable.obj
+ 0001:0000a73d       _luaH_get                  1000b73d f   ltable.obj
+ 0001:0000a802       _luaH_next                 1000b802 f   ltable.obj
+ 0001:0000a8a4       _luaH_remove               1000b8a4 f   ltable.obj
+ 0001:0000a942       _luaH_new                  1000b942 f   ltable.obj
+ 0001:0000aa9b       _luaH_free                 1000ba9b f   ltable.obj
+ 0001:0000aae0       _luaH_set                  1000bae0 f   ltable.obj
+ 0001:0000adb5       _luaH_setint               1000bdb5 f   ltable.obj
+ 0001:0000ade0       _luaH_setstrnum            1000bde0 f   ltable.obj
+ 0001:0000ae26       _luaH_getglobal            1000be26 f   ltable.obj
+ 0001:0000ae50       _luaT_validevent           1000be50 f   ltm.obj
+ 0001:0000ae7e       _luaT_init                 1000be7e f   ltm.obj
+ 0001:0000af47       _lua_newtag                1000bf47 f   ltm.obj
+ 0001:0000afb1       _luaT_realtag              1000bfb1 f   ltm.obj
+ 0001:0000afdc       _lua_copytagmethods        1000bfdc f   ltm.obj
+ 0001:0000b08a       _luaT_tag                  1000c08a f   ltm.obj
+ 0001:0000b0c8       _lua_gettagmethod          1000c0c8 f   ltm.obj
+ 0001:0000b237       _lua_settagmethod          1000c237 f   ltm.obj
+ 0001:0000b340       _ldo                       1000c340 f   lua.obj
+ 0001:0000b479       _lua_setdebugout           1000c479 f   lua.obj
+ 0001:0000b483       _lua_outerrmsg             1000c483 f   lua.obj
+ 0001:0000b49f       _lua_outoutmsg             1000c49f f   lua.obj
+ 0001:0000b4bb       _main                      1000c4bb f   lua.obj
+ 0001:0000bd10       _Lua_SetTable_DoubleFromName 1000cd10 f   LuaExtend.obj
+ 0001:0000bd67       _Lua_SetTable_IntFromName  1000cd67 f   LuaExtend.obj
+ 0001:0000bdbf       _Lua_SetTable_StringFromName 1000cdbf f   LuaExtend.obj
+ 0001:0000be12       _Lua_SetTable_StringFromId 1000ce12 f   LuaExtend.obj
+ 0001:0000be6a       _Lua_SetTable_DoubleFromId 1000ce6a f   LuaExtend.obj
+ 0001:0000bec6       _Lua_SetTable_IntFromId    1000cec6 f   LuaExtend.obj
+ 0001:0000bf23       _Lua_SetTable_CFunFromName 1000cf23 f   LuaExtend.obj
+ 0001:0000bf78       _Lua_SetTable_CFunFromId   1000cf78 f   LuaExtend.obj
+ 0001:0000bfd2       _Lua_GetValuesFromStack    1000cfd2 f   LuaExtend.obj
+ 0001:0000c160       _luaU_undump               1000d160 f   lundump.obj
+ 0001:0000cc02       _luaU_endianess            1000dc02 f   lundump.obj
+ 0001:0000cc20       _luaV_tonumber             1000dc20 f   lvm.obj
+ 0001:0000cc63       _luaV_tostring             1000dc63 f   lvm.obj
+ 0001:0000ccbb       _luaV_Cclosure             1000dcbb f   lvm.obj
+ 0001:0000cd97       _luaV_Lclosure             1000dd97 f   lvm.obj
+ 0001:0000cdc3       _luaV_gettable             1000ddc3 f   lvm.obj
+ 0001:0000cf16       _luaV_settable             1000df16 f   lvm.obj
+ 0001:0000d074       _luaV_getglobal            1000e074 f   lvm.obj
+ 0001:0000d146       _luaV_setglobal            1000e146 f   lvm.obj
+ 0001:0000d2a3       _luaV_lessthan             1000e2a3 f   lvm.obj
+ 0001:0000d512       _luaV_strconc              1000e512 f   lvm.obj
+ 0001:0000d6ee       _luaV_execute              1000e6ee f   lvm.obj
+ 0001:0000ead0       _luaZ_mopen                1000fad0 f   lzio.obj
+ 0001:0000eb18       _luaZ_sopen                1000fb18 f   lzio.obj
+ 0001:0000eb48       _luaZ_Fopen                1000fb48 f   lzio.obj
+ 0001:0000ec07       _luaZ_read                 1000fc07 f   lzio.obj
+ 0001:0000ecd0       _luaL_findstring           1000fcd0 f   lauxlib.obj
+ 0001:0000ed1a       _luaL_argerror             1000fd1a f   lauxlib.obj
+ 0001:0000ed75       _luaL_checkstack           1000fd75 f   lauxlib.obj
+ 0001:0000eda0       _luaL_checktype            1000fda0 f   lauxlib.obj
+ 0001:0000ee2d       _luaL_checkany             1000fe2d f   lauxlib.obj
+ 0001:0000ee5c       _luaL_check_lstr           1000fe5c f   lauxlib.obj
+ 0001:0000eead       _luaL_opt_lstr             1000fead f   lauxlib.obj
+ 0001:0000ef0f       _luaL_check_number         1000ff0f f   lauxlib.obj
+ 0001:0000ef62       _luaL_opt_number           1000ff62 f   lauxlib.obj
+ 0001:0000ef91       _luaL_openlib              1000ff91 f   lauxlib.obj
+ 0001:0000efe4       _luaL_verror               1000ffe4 f   lauxlib.obj
+ 0001:0000f032       _luaL_prepbuffer           10010032 f   lauxlib.obj
+ 0001:0000f166       _luaL_addlstring           10010166 f   lauxlib.obj
+ 0001:0000f1bb       _luaL_addstring            100101bb f   lauxlib.obj
+ 0001:0000f1dd       _luaL_pushresult           100101dd f   lauxlib.obj
+ 0001:0000f235       _luaL_addvalue             10010235 f   lauxlib.obj
+ 0001:0000f2e9       _luaL_buffinit             100102e9 f   lauxlib.obj
+ 0001:000107ce       _lua_baselibopen           100117ce f   lbaselib.obj
+ 0001:00010e9d       _lua_dblibopen             10011e9d f   ldblib.obj
+ 0001:000123e7       _lua_iolibopen             100133e7 f   liolib.obj
+ 0001:00012cad       _lua_mathlibopen           10013cad f   lmathlib.obj
+ 0001:00013236       _luaI_classend             10014236 f   lstrlib.obj
+ 0001:000132f8       _luaI_singlematch          100142f8 f   lstrlib.obj
+ 0001:00014c7b       _lua_strlibopen            10015c7b f   lstrlib.obj
+ 0001:00014ca0       _strlen                    10015ca0 f   MSVCRT:MSVCRT.dll
+ 0001:00014ca6       __ftol                     10015ca6 f   MSVCRT:MSVCRT.dll
+ 0001:00014cac       _abs                       10015cac f   MSVCRT:MSVCRT.dll
+ 0001:00014cb2       _fclose                    10015cb2 f   MSVCRT:MSVCRT.dll
+ 0001:00014cb8       _freopen                   10015cb8 f   MSVCRT:MSVCRT.dll
+ 0001:00014cbe       _ungetc                    10015cbe f   MSVCRT:MSVCRT.dll
+ 0001:00014cc4       _fgetc                     10015cc4 f   MSVCRT:MSVCRT.dll
+ 0001:00014cca       _fopen                     10015cca f   MSVCRT:MSVCRT.dll
+ 0001:00014cd0       _fwrite                    10015cd0 f   MSVCRT:MSVCRT.dll
+ 0001:00014cd6       _printf                    10015cd6 f   MSVCRT:MSVCRT.dll
+ 0001:00014cdc       _longjmp                   10015cdc f   MSVCRT:MSVCRT.dll
+ 0001:00014ce2       __setjmp3                  10015ce2 f   MSVCRT:MSVCRT.dll
+ 0001:00014ce8       _sprintf                   10015ce8 f   MSVCRT:MSVCRT.dll
+ 0001:00014cee       _strcpy                    10015cee f   MSVCRT:MSVCRT.dll
+ 0001:00014cf4       __isctype                  10015cf4 f   MSVCRT:MSVCRT.dll
+ 0001:00014cfa       _realloc                   10015cfa f   MSVCRT:MSVCRT.dll
+ 0001:00014d00       _free                      10015d00 f   MSVCRT:MSVCRT.dll
+ 0001:00014d06       _strtod                    10015d06 f   MSVCRT:MSVCRT.dll
+ 0001:00014d0c       _vsprintf                  10015d0c f   MSVCRT:MSVCRT.dll
+ 0001:00014d12       _strcspn                   10015d12 f   MSVCRT:MSVCRT.dll
+ 0001:00014d18       _strncpy                   10015d18 f   MSVCRT:MSVCRT.dll
+ 0001:00014d1e       _fprintf                   10015d1e f   MSVCRT:MSVCRT.dll
+ 0001:00014d24       _memcpy                    10015d24 f   MSVCRT:MSVCRT.dll
+ 0001:00014d2a       _memcmp                    10015d2a f   MSVCRT:MSVCRT.dll
+ 0001:00014d30       _strcmp                    10015d30 f   MSVCRT:MSVCRT.dll
+ 0001:00014d36       _signal                    10015d36 f   MSVCRT:MSVCRT.dll
+ 0001:00014d3c       _strchr                    10015d3c f   MSVCRT:MSVCRT.dll
+ 0001:00014d42       _perror                    10015d42 f   MSVCRT:MSVCRT.dll
+ 0001:00014d48       _getchar                   10015d48 f   MSVCRT:MSVCRT.dll
+ 0001:00014d4e       _fputs                     10015d4e f   MSVCRT:MSVCRT.dll
+ 0001:00014d54       _atoi                      10015d54 f   MSVCRT:MSVCRT.dll
+ 0001:00014d5a       _strcoll                   10015d5a f   MSVCRT:MSVCRT.dll
+ 0001:00014d60       _fread                     10015d60 f   MSVCRT:MSVCRT.dll
+ 0001:00014d66       _strtoul                   10015d66 f   MSVCRT:MSVCRT.dll
+ 0001:00014d6c       _strerror                  10015d6c f   MSVCRT:MSVCRT.dll
+ 0001:00014d72       __errno                    10015d72 f   MSVCRT:MSVCRT.dll
+ 0001:00014d78       _fscanf                    10015d78 f   MSVCRT:MSVCRT.dll
+ 0001:00014d7e       _fgets                     10015d7e f   MSVCRT:MSVCRT.dll
+ 0001:00014d84       _malloc                    10015d84 f   MSVCRT:MSVCRT.dll
+ 0001:00014d8a       _ftell                     10015d8a f   MSVCRT:MSVCRT.dll
+ 0001:00014d90       _fseek                     10015d90 f   MSVCRT:MSVCRT.dll
+ 0001:00014d96       _fflush                    10015d96 f   MSVCRT:MSVCRT.dll
+ 0001:00014d9c       _system                    10015d9c f   MSVCRT:MSVCRT.dll
+ 0001:00014da2       _remove                    10015da2 f   MSVCRT:MSVCRT.dll
+ 0001:00014da8       _rename                    10015da8 f   MSVCRT:MSVCRT.dll
+ 0001:00014dae       _tmpnam                    10015dae f   MSVCRT:MSVCRT.dll
+ 0001:00014db4       _getenv                    10015db4 f   MSVCRT:MSVCRT.dll
+ 0001:00014dba       _clock                     10015dba f   MSVCRT:MSVCRT.dll
+ 0001:00014dc0       _strftime                  10015dc0 f   MSVCRT:MSVCRT.dll
+ 0001:00014dc6       _localtime                 10015dc6 f   MSVCRT:MSVCRT.dll
+ 0001:00014dcc       _time                      10015dcc f   MSVCRT:MSVCRT.dll
+ 0001:00014dd2       _setlocale                 10015dd2 f   MSVCRT:MSVCRT.dll
+ 0001:00014dd8       _fabs                      10015dd8 f   MSVCRT:MSVCRT.dll
+ 0001:00014dde       _sin                       10015dde f   MSVCRT:MSVCRT.dll
+ 0001:00014de4       _cos                       10015de4 f   MSVCRT:MSVCRT.dll
+ 0001:00014dea       _tan                       10015dea f   MSVCRT:MSVCRT.dll
+ 0001:00014df0       _asin                      10015df0 f   MSVCRT:MSVCRT.dll
+ 0001:00014df6       _acos                      10015df6 f   MSVCRT:MSVCRT.dll
+ 0001:00014dfc       _atan                      10015dfc f   MSVCRT:MSVCRT.dll
+ 0001:00014e02       _atan2                     10015e02 f   MSVCRT:MSVCRT.dll
+ 0001:00014e08       _ceil                      10015e08 f   MSVCRT:MSVCRT.dll
+ 0001:00014e0e       _floor                     10015e0e f   MSVCRT:MSVCRT.dll
+ 0001:00014e14       _fmod                      10015e14 f   MSVCRT:MSVCRT.dll
+ 0001:00014e1a       _sqrt                      10015e1a f   MSVCRT:MSVCRT.dll
+ 0001:00014e20       _log                       10015e20 f   MSVCRT:MSVCRT.dll
+ 0001:00014e26       _log10                     10015e26 f   MSVCRT:MSVCRT.dll
+ 0001:00014e2c       _exp                       10015e2c f   MSVCRT:MSVCRT.dll
+ 0001:00014e32       _frexp                     10015e32 f   MSVCRT:MSVCRT.dll
+ 0001:00014e38       _ldexp                     10015e38 f   MSVCRT:MSVCRT.dll
+ 0001:00014e3e       _rand                      10015e3e f   MSVCRT:MSVCRT.dll
+ 0001:00014e44       _srand                     10015e44 f   MSVCRT:MSVCRT.dll
+ 0001:00014e4a       _pow                       10015e4a f   MSVCRT:MSVCRT.dll
+ 0001:00014e50       _tolower                   10015e50 f   MSVCRT:MSVCRT.dll
+ 0001:00014e56       _toupper                   10015e56 f   MSVCRT:MSVCRT.dll
+ 0001:00014e5c       _strpbrk                   10015e5c f   MSVCRT:MSVCRT.dll
+ 0001:00014e62       _memchr                    10015e62 f   MSVCRT:MSVCRT.dll
+ 0001:00014e68       __CRT_INIT@12              10015e68 f   MSVCRT:crtdll.obj
+ 0001:00014f13       __DllMainCRTStartup@12     10015f13 f   MSVCRT:crtdll.obj
+ 0001:00014fb0       __initterm                 10015fb0 f   MSVCRT:MSVCRT.dll
+ 0001:00014fb6       __onexit                   10015fb6 f   MSVCRT:atonexit.obj
+ 0001:00014fe2       _atexit                    10015fe2 f   MSVCRT:atonexit.obj
+ 0001:00014ff4       _DllMain@12                10015ff4 f   MSVCRT:dllmain.obj
+ 0001:00015014       ___dllonexit               10016014 f   MSVCRT:MSVCRT.dll
+ 0001:0001501a       _DisableThreadLibraryCalls@4 1001601a f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp__DisableThreadLibraryCalls@4 10017000     kernel32:KERNEL32.dll
+ 0002:00000004       \177KERNEL32_NULL_THUNK_DATA 10017004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__abs                 10017008     MSVCRT:MSVCRT.dll
+ 0002:0000000c       __imp__fclose              1001700c     MSVCRT:MSVCRT.dll
+ 0002:00000010       __imp__freopen             10017010     MSVCRT:MSVCRT.dll
+ 0002:00000014       __imp__ungetc              10017014     MSVCRT:MSVCRT.dll
+ 0002:00000018       __imp__fgetc               10017018     MSVCRT:MSVCRT.dll
+ 0002:0000001c       __imp__fopen               1001701c     MSVCRT:MSVCRT.dll
+ 0002:00000020       __imp___iob                10017020     MSVCRT:MSVCRT.dll
+ 0002:00000024       __imp__fwrite              10017024     MSVCRT:MSVCRT.dll
+ 0002:00000028       __imp__printf              10017028     MSVCRT:MSVCRT.dll
+ 0002:0000002c       __imp__longjmp             1001702c     MSVCRT:MSVCRT.dll
+ 0002:00000030       __imp___setjmp3            10017030     MSVCRT:MSVCRT.dll
+ 0002:00000034       __imp__sprintf             10017034     MSVCRT:MSVCRT.dll
+ 0002:00000038       __imp__strcpy              10017038     MSVCRT:MSVCRT.dll
+ 0002:0000003c       __imp___pctype             1001703c     MSVCRT:MSVCRT.dll
+ 0002:00000040       __imp___isctype            10017040     MSVCRT:MSVCRT.dll
+ 0002:00000044       __imp____mb_cur_max        10017044     MSVCRT:MSVCRT.dll
+ 0002:00000048       __imp__realloc             10017048     MSVCRT:MSVCRT.dll
+ 0002:0000004c       __imp__free                1001704c     MSVCRT:MSVCRT.dll
+ 0002:00000050       __imp__strtod              10017050     MSVCRT:MSVCRT.dll
+ 0002:00000054       __imp__vsprintf            10017054     MSVCRT:MSVCRT.dll
+ 0002:00000058       __imp__strcspn             10017058     MSVCRT:MSVCRT.dll
+ 0002:0000005c       __imp__strncpy             1001705c     MSVCRT:MSVCRT.dll
+ 0002:00000060       __imp__fprintf             10017060     MSVCRT:MSVCRT.dll
+ 0002:00000064       __imp__memcpy              10017064     MSVCRT:MSVCRT.dll
+ 0002:00000068       __imp__memcmp              10017068     MSVCRT:MSVCRT.dll
+ 0002:0000006c       __imp__strcmp              1001706c     MSVCRT:MSVCRT.dll
+ 0002:00000070       __imp__signal              10017070     MSVCRT:MSVCRT.dll
+ 0002:00000074       __imp__strchr              10017074     MSVCRT:MSVCRT.dll
+ 0002:00000078       __imp__perror              10017078     MSVCRT:MSVCRT.dll
+ 0002:0000007c       __imp__getchar             1001707c     MSVCRT:MSVCRT.dll
+ 0002:00000080       __imp__fputs               10017080     MSVCRT:MSVCRT.dll
+ 0002:00000084       __imp__atoi                10017084     MSVCRT:MSVCRT.dll
+ 0002:00000088       __imp__strcoll             10017088     MSVCRT:MSVCRT.dll
+ 0002:0000008c       __imp__fread               1001708c     MSVCRT:MSVCRT.dll
+ 0002:00000090       __imp__strtoul             10017090     MSVCRT:MSVCRT.dll
+ 0002:00000094       __imp__strerror            10017094     MSVCRT:MSVCRT.dll
+ 0002:00000098       __imp___errno              10017098     MSVCRT:MSVCRT.dll
+ 0002:0000009c       __imp__fscanf              1001709c     MSVCRT:MSVCRT.dll
+ 0002:000000a0       __imp__fgets               100170a0     MSVCRT:MSVCRT.dll
+ 0002:000000a4       __imp__malloc              100170a4     MSVCRT:MSVCRT.dll
+ 0002:000000a8       __imp___ftol               100170a8     MSVCRT:MSVCRT.dll
+ 0002:000000ac       __imp__fseek               100170ac     MSVCRT:MSVCRT.dll
+ 0002:000000b0       __imp__fflush              100170b0     MSVCRT:MSVCRT.dll
+ 0002:000000b4       __imp__system              100170b4     MSVCRT:MSVCRT.dll
+ 0002:000000b8       __imp__remove              100170b8     MSVCRT:MSVCRT.dll
+ 0002:000000bc       __imp__rename              100170bc     MSVCRT:MSVCRT.dll
+ 0002:000000c0       __imp__tmpnam              100170c0     MSVCRT:MSVCRT.dll
+ 0002:000000c4       __imp__getenv              100170c4     MSVCRT:MSVCRT.dll
+ 0002:000000c8       __imp__clock               100170c8     MSVCRT:MSVCRT.dll
+ 0002:000000cc       __imp__strftime            100170cc     MSVCRT:MSVCRT.dll
+ 0002:000000d0       __imp__localtime           100170d0     MSVCRT:MSVCRT.dll
+ 0002:000000d4       __imp__time                100170d4     MSVCRT:MSVCRT.dll
+ 0002:000000d8       __imp__setlocale           100170d8     MSVCRT:MSVCRT.dll
+ 0002:000000dc       __imp__fabs                100170dc     MSVCRT:MSVCRT.dll
+ 0002:000000e0       __imp__sin                 100170e0     MSVCRT:MSVCRT.dll
+ 0002:000000e4       __imp__cos                 100170e4     MSVCRT:MSVCRT.dll
+ 0002:000000e8       __imp__tan                 100170e8     MSVCRT:MSVCRT.dll
+ 0002:000000ec       __imp__asin                100170ec     MSVCRT:MSVCRT.dll
+ 0002:000000f0       __imp__acos                100170f0     MSVCRT:MSVCRT.dll
+ 0002:000000f4       __imp__atan                100170f4     MSVCRT:MSVCRT.dll
+ 0002:000000f8       __imp__atan2               100170f8     MSVCRT:MSVCRT.dll
+ 0002:000000fc       __imp__ceil                100170fc     MSVCRT:MSVCRT.dll
+ 0002:00000100       __imp__floor               10017100     MSVCRT:MSVCRT.dll
+ 0002:00000104       __imp__fmod                10017104     MSVCRT:MSVCRT.dll
+ 0002:00000108       __imp__sqrt                10017108     MSVCRT:MSVCRT.dll
+ 0002:0000010c       __imp__log                 1001710c     MSVCRT:MSVCRT.dll
+ 0002:00000110       __imp__log10               10017110     MSVCRT:MSVCRT.dll
+ 0002:00000114       __imp__exp                 10017114     MSVCRT:MSVCRT.dll
+ 0002:00000118       __imp__frexp               10017118     MSVCRT:MSVCRT.dll
+ 0002:0000011c       __imp__ldexp               1001711c     MSVCRT:MSVCRT.dll
+ 0002:00000120       __imp__rand                10017120     MSVCRT:MSVCRT.dll
+ 0002:00000124       __imp__srand               10017124     MSVCRT:MSVCRT.dll
+ 0002:00000128       __imp__pow                 10017128     MSVCRT:MSVCRT.dll
+ 0002:0000012c       __imp__tolower             1001712c     MSVCRT:MSVCRT.dll
+ 0002:00000130       __imp__toupper             10017130     MSVCRT:MSVCRT.dll
+ 0002:00000134       __imp__strpbrk             10017134     MSVCRT:MSVCRT.dll
+ 0002:00000138       __imp__memchr              10017138     MSVCRT:MSVCRT.dll
+ 0002:0000013c       __imp___initterm           1001713c     MSVCRT:MSVCRT.dll
+ 0002:00000140       __imp___adjust_fdiv        10017140     MSVCRT:MSVCRT.dll
+ 0002:00000144       __imp____dllonexit         10017144     MSVCRT:MSVCRT.dll
+ 0002:00000148       __imp___onexit             10017148     MSVCRT:MSVCRT.dll
+ 0002:0000014c       __imp__ftell               1001714c     MSVCRT:MSVCRT.dll
+ 0002:00000150       __imp__strlen              10017150     MSVCRT:MSVCRT.dll
+ 0002:00000154       \177MSVCRT_NULL_THUNK_DATA 10017154     MSVCRT:MSVCRT.dll
+ 0002:0000017c       _lua_ident                 1001717c     lapi.obj
+ 0002:00000258       _luaK_opproperties         10017258     lcode.obj
+ 0002:000002f0       __real@8@4017ffffff8000000000 100172f0     lcode.obj
+ 0002:00000368       _luaO_nilobject            10017368     lobject.obj
+ 0002:00000378       _luaO_typenames            10017378     lobject.obj
+ 0002:000003ac       _luaT_eventname            100173ac     ltm.obj
+ 0002:00000458       __real@8@00000000000000000000 10017458     lvm.obj
+ 0002:000006c8       __real@8@4008fa00000000000000 100176c8     liolib.obj
+ 0002:00000788       __real@8@3ff98efa351294e9c800 10017788     lmathlib.obj
+ 0002:00000790       __real@8@400dfffe000000000000 10017790     lmathlib.obj
+ 0002:000007f0       __IMPORT_DESCRIPTOR_MSVCRT 100177f0     MSVCRT:MSVCRT.dll
+ 0002:00000804       __IMPORT_DESCRIPTOR_KERNEL32 10017804     kernel32:KERNEL32.dll
+ 0002:00000818       __NULL_IMPORT_DESCRIPTOR   10017818     MSVCRT:MSVCRT.dll
+ 0003:00000000       ___xc_a                    10019000     MSVCRT:cinitexe.obj
+ 0003:00000004       ___xc_z                    10019004     MSVCRT:cinitexe.obj
+ 0003:00000008       ___xi_a                    10019008     MSVCRT:cinitexe.obj
+ 0003:0000000c       ___xi_z                    1001900c     MSVCRT:cinitexe.obj
+ 0003:00001df8       _sout                      1001adf8     lua.obj
+ 0003:00001dfc       _serr                      1001adfc     lua.obj
+ 0003:00001e14       __adjust_fdiv              1001ae14     <common>
+ 0003:00001e18       ___onexitend               1001ae18     <common>
+ 0003:00001e1c       ___onexitbegin             1001ae1c     <common>
+ 0003:00001e20       __pRawDllMain              1001ae20     <common>
+
+ entry point at        0001:00014f13
+
+ Static symbols
+
+ 0001:00012d50       _str_len                   10013d50 f   lstrlib.obj
+ 0001:00012d93       _str_sub                   10013d93 f   lstrlib.obj
+ 0001:00012e5b       _posrelat                  10013e5b f   lstrlib.obj
+ 0001:00012e81       _str_lower                 10013e81 f   lstrlib.obj
+ 0001:00012f46       _str_upper                 10013f46 f   lstrlib.obj
+ 0001:0001300b       _str_rep                   1001400b f   lstrlib.obj
+ 0001:000130ab       _str_byte                  100140ab f   lstrlib.obj
+ 0001:0001313d       _str_char                  1001413d f   lstrlib.obj
+ 0001:00013364       _match_class               10014364 f   lstrlib.obj
+ 0001:000136a4       _matchbracketclass         100146a4 f   lstrlib.obj
+ 0001:00013776       _str_find                  10014776 f   lstrlib.obj
+ 0001:000139eb       _match                     100149eb f   lstrlib.obj
+ 0001:00013d01       _matchbalance              10014d01 f   lstrlib.obj
+ 0001:00013dae       _max_expand                10014dae f   lstrlib.obj
+ 0001:00013e35       _min_expand                10014e35 f   lstrlib.obj
+ 0001:00013e9d       _start_capture             10014e9d f   lstrlib.obj
+ 0001:00013f24       _end_capture               10014f24 f   lstrlib.obj
+ 0001:00013f8d       _capture_to_close          10014f8d f   lstrlib.obj
+ 0001:00013fdf       _match_capture             10014fdf f   lstrlib.obj
+ 0001:00014043       _check_capture             10015043 f   lstrlib.obj
+ 0001:00014083       _lmemfind                  10015083 f   lstrlib.obj
+ 0001:00014122       _push_captures             10015122 f   lstrlib.obj
+ 0001:000141a8       _str_gsub                  100151a8 f   lstrlib.obj
+ 0001:00014416       _add_s                     10015416 f   lstrlib.obj
+ 0001:000145f3       _str_format                100155f3 f   lstrlib.obj
+ 0001:00014a98       _luaI_addquoted            10015a98 f   lstrlib.obj
+ 0001:00012620       _math_abs                  10013620 f   lmathlib.obj
+ 0001:0001264c       _math_sin                  1001364c f   lmathlib.obj
+ 0001:00012684       _math_cos                  10013684 f   lmathlib.obj
+ 0001:000126bc       _math_tan                  100136bc f   lmathlib.obj
+ 0001:000126f4       _math_asin                 100136f4 f   lmathlib.obj
+ 0001:0001272c       _math_acos                 1001372c f   lmathlib.obj
+ 0001:00012764       _math_atan                 10013764 f   lmathlib.obj
+ 0001:0001279c       _math_atan2                1001379c f   lmathlib.obj
+ 0001:000127e2       _math_ceil                 100137e2 f   lmathlib.obj
+ 0001:0001280f       _math_floor                1001380f f   lmathlib.obj
+ 0001:0001283c       _math_mod                  1001383c f   lmathlib.obj
+ 0001:00012879       _math_sqrt                 10013879 f   lmathlib.obj
+ 0001:000128a5       _math_log                  100138a5 f   lmathlib.obj
+ 0001:000128d1       _math_log10                100138d1 f   lmathlib.obj
+ 0001:000128fd       _math_exp                  100138fd f   lmathlib.obj
+ 0001:00012929       _math_deg                  10013929 f   lmathlib.obj
+ 0001:00012959       _math_rad                  10013959 f   lmathlib.obj
+ 0001:00012989       _math_frexp                10013989 f   lmathlib.obj
+ 0001:000129d5       _math_ldexp                100139d5 f   lmathlib.obj
+ 0001:00012a19       _math_min                  10013a19 f   lmathlib.obj
+ 0001:00012ab0       _math_max                  10013ab0 f   lmathlib.obj
+ 0001:00012b38       _math_random               10013b38 f   lmathlib.obj
+ 0001:00012c89       _math_randomseed           10013c89 f   lmathlib.obj
+ 0001:00012d12       _math_pow                  10013d12 f   lmathlib.obj
+ 0001:00010ec0       _io_close                  10011ec0 f   liolib.obj
+ 0001:00010f17       _pushresult                10011f17 f   liolib.obj
+ 0001:00010f83       _getnonullfile             10011f83 f   liolib.obj
+ 0001:00010fc0       _gethandle                 10011fc0 f   liolib.obj
+ 0001:00011024       _closefile                 10012024 f   liolib.obj
+ 0001:00011093       _io_open                   10012093 f   liolib.obj
+ 0001:0001111c       _io_readfrom               1001211c f   liolib.obj
+ 0001:00011134       _io_fromto                 10012134 f   liolib.obj
+ 0001:0001123b       _getfilebyref              1001223b f   liolib.obj
+ 0001:000112ad       _setreturn                 100122ad f   liolib.obj
+ 0001:00011303       _setfilebyname             10012303 f   liolib.obj
+ 0001:0001132f       _io_writeto                1001232f f   liolib.obj
+ 0001:00011347       _io_appendto               10012347 f   liolib.obj
+ 0001:000113a8       _io_read                   100123a8 f   liolib.obj
+ 0001:00011605       _read_number               10012605 f   liolib.obj
+ 0001:00011647       _read_word                 10012647 f   liolib.obj
+ 0001:000117a3       _read_line                 100127a3 f   liolib.obj
+ 0001:00011877       _read_file                 10012877 f   liolib.obj
+ 0001:0001195b       _read_chars                1001295b f   liolib.obj
+ 0001:00011a3a       _io_write                  10012a3a f   liolib.obj
+ 0001:00011b8b       _io_seek                   10012b8b f   liolib.obj
+ 0001:00011c81       _io_flush                  10012c81 f   liolib.obj
+ 0001:00011d0a       _io_execute                10012d0a f   liolib.obj
+ 0001:00011d49       _io_remove                 10012d49 f   liolib.obj
+ 0001:00011d7a       _io_rename                 10012d7a f   liolib.obj
+ 0001:00011dbc       _io_tmpname                10012dbc f   liolib.obj
+ 0001:00011dde       _io_getenv                 10012dde f   liolib.obj
+ 0001:00011e0f       _io_clock                  10012e0f f   liolib.obj
+ 0001:00011e40       _io_date                   10012e40 f   liolib.obj
+ 0001:00011ee0       _setloc                    10012ee0 f   liolib.obj
+ 0001:00011f5e       _io_exit                   10012f5e f   liolib.obj
+ 0001:00011f8f       _io_debug                  10012f8f f   liolib.obj
+ 0001:00012012       _errorfb                   10013012 f   liolib.obj
+ 0001:0001240b       _openwithcontrol           1001340b f   liolib.obj
+ 0001:000125b2       _file_collect              100135b2 f   liolib.obj
+ 0001:000108a0       _getinfo                   100118a0 f   ldblib.obj
+ 0001:00010b0f       _settabss                  10011b0f f   ldblib.obj
+ 0001:00010b42       _settabsi                  10011b42 f   ldblib.obj
+ 0001:00010b7a       _getlocal                  10011b7a f   ldblib.obj
+ 0001:00010c22       _setlocal                  10011c22 f   ldblib.obj
+ 0001:00010cab       _setcallhook               10011cab f   ldblib.obj
+ 0001:00010cd0       _callf                     10011cd0 f   ldblib.obj
+ 0001:00010cf8       _hookf                     10011cf8 f   ldblib.obj
+ 0001:00010d7a       _sethook                   10011d7a f   ldblib.obj
+ 0001:00010e4a       _setlinehook               10011e4a f   ldblib.obj
+ 0001:00010e6f       _linef                     10011e6f f   ldblib.obj
+ 0001:0000f310       _luaB__ALERT               10010310 f   lbaselib.obj
+ 0001:0000f33a       _luaB__ERRORMESSAGE        1001033a f   lbaselib.obj
+ 0001:0000f444       _luaB_print                10010444 f   lbaselib.obj
+ 0001:0000f544       _luaB_tonumber             10010544 f   lbaselib.obj
+ 0001:0000f6a3       _luaB_error                100106a3 f   lbaselib.obj
+ 0001:0000f6c9       _luaB_setglobal            100106c9 f   lbaselib.obj
+ 0001:0000f6fb       _luaB_getglobal            100106fb f   lbaselib.obj
+ 0001:0000f722       _luaB_tag                  10010722 f   lbaselib.obj
+ 0001:0000f763       _luaB_settag               10010763 f   lbaselib.obj
+ 0001:0000f7ab       _luaB_newtag               100107ab f   lbaselib.obj
+ 0001:0000f7dc       _luaB_copytagmethods       100107dc f   lbaselib.obj
+ 0001:0000f835       _luaB_globals              10010835 f   lbaselib.obj
+ 0001:0000f888       _luaB_rawget               10010888 f   lbaselib.obj
+ 0001:0000f8be       _luaB_rawset               100108be f   lbaselib.obj
+ 0001:0000f902       _luaB_settagmethod         10010902 f   lbaselib.obj
+ 0001:0000f9cf       _luaB_gettagmethod         100109cf f   lbaselib.obj
+ 0001:0000fa41       _luaB_gcinfo               10010a41 f   lbaselib.obj
+ 0001:0000fa98       _luaB_collectgarbage       10010a98 f   lbaselib.obj
+ 0001:0000fac3       _luaB_type                 10010ac3 f   lbaselib.obj
+ 0001:0000fb03       _luaB_next                 10010b03 f   lbaselib.obj
+ 0001:0000fb50       _luaB_dostring             10010b50 f   lbaselib.obj
+ 0001:0000fbd4       _passresults               10010bd4 f   lbaselib.obj
+ 0001:0000fc3e       _luaB_dofile               10010c3e f   lbaselib.obj
+ 0001:0000fc8d       _luaB_call                 10010c8d f   lbaselib.obj
+ 0001:0000fe37       _luaB_tostring             10010e37 f   lbaselib.obj
+ 0001:0000ff76       _luaB_foreachi             10010f76 f   lbaselib.obj
+ 0001:0001003c       _luaB_foreach              1001103c f   lbaselib.obj
+ 0001:000100e7       _luaB_assert               100110e7 f   lbaselib.obj
+ 0001:00010136       _luaB_getn                 10011136 f   lbaselib.obj
+ 0001:00010179       _luaB_tinsert              10011179 f   lbaselib.obj
+ 0001:00010277       _luaB_tremove              10011277 f   lbaselib.obj
+ 0001:0001037c       _luaB_sort                 1001137c f   lbaselib.obj
+ 0001:000103ea       _auxsort                   100113ea f   lbaselib.obj
+ 0001:00010705       _set2                      10011705 f   lbaselib.obj
+ 0001:0001072e       _sort_comp                 1001172e f   lbaselib.obj
+ 0001:00010814       _deprecated_funcs          10011814 f   lbaselib.obj
+ 0001:00010877       _deprecated_func           10011877 f   lbaselib.obj
+ 0001:0000edce       _type_error                1000fdce f   lauxlib.obj
+ 0001:0000f059       _emptybuffer               10010059 f   lauxlib.obj
+ 0001:0000f0b4       _adjuststack               100100b4 f   lauxlib.obj
+ 0001:0000eb10       _zmfilbuf                  1000fb10 f   lzio.obj
+ 0001:0000eb8b       _zffilbuf                  1000fb8b f   lzio.obj
+ 0001:0000cce7       _luaV_closure              1000dce7 f   lvm.obj
+ 0001:0000d3b9       _call_binTM                1000e3b9 f   lvm.obj
+ 0001:0000d464       _luaV_strcomp              1000e464 f   lvm.obj
+ 0001:0000e894       _traceexec                 1000f894 f   lvm.obj
+ 0001:0000e961       _call_arith                1000f961 f   lvm.obj
+ 0001:0000e998       _adjust_varargs            1000f998 f   lvm.obj
+ 0001:0000e9e3       _luaV_pack                 1000f9e3 f   lvm.obj
+ 0001:0000c245       _ZNAME                     1000d245 f   lundump.obj
+ 0001:0000c277       _LoadChunk                 1000d277 f   lundump.obj
+ 0001:0000c29d       _LoadFunction              1000d29d f   lundump.obj
+ 0001:0000c398       _ezgetc                    1000d398 f   lundump.obj
+ 0001:0000c405       _unexpectedEOZ             1000d405 f   lundump.obj
+ 0001:0000c428       _LoadInt                   1000d428 f   lundump.obj
+ 0001:0000c44d       _LoadBlock                 1000d44d f   lundump.obj
+ 0001:0000c4ba       _ezread                    1000d4ba f   lundump.obj
+ 0001:0000c4ef       _LoadString                1000d4ef f   lundump.obj
+ 0001:0000c55e       _LoadSize                  1000d55e f   lundump.obj
+ 0001:0000c583       _LoadCode                  1000d583 f   lundump.obj
+ 0001:0000c620       _LoadVector                1000d620 f   lundump.obj
+ 0001:0000c6b2       _LoadLocals                1000d6b2 f   lundump.obj
+ 0001:0000c77e       _LoadLines                 1000d77e f   lundump.obj
+ 0001:0000c7e2       _LoadConstants             1000d7e2 f   lundump.obj
+ 0001:0000c934       _LoadHeader                1000d934 f   lundump.obj
+ 0001:0000cb28       _LoadNumber                1000db28 f   lundump.obj
+ 0001:0000cb4f       _LoadSignature             1000db4f f   lundump.obj
+ 0001:0000cbb5       _TestSize                  1000dbb5 f   lundump.obj
+ 0001:0000b3d9       _lreset                    1000c3d9 f   lua.obj
+ 0001:0000b3ee       _laction                   1000c3ee f   lua.obj
+ 0001:0000b431       _lstop                     1000c431 f   lua.obj
+ 0001:0000b530       _userinit                  1000c530 f   lua.obj
+ 0001:0000b57e       _handle_argv               1000c57e f   lua.obj
+ 0001:0000b868       _isatty                    1000c868 f   lua.obj
+ 0001:0000b876       _print_message             1000c876 f   lua.obj
+ 0001:0000b892       _print_version             1000c892 f   lua.obj
+ 0001:0000b8af       _assign                    1000c8af f   lua.obj
+ 0001:0000b8f7       _getargs                   1000c8f7 f   lua.obj
+ 0001:0000b9b5       _file_input                1000c9b5 f   lua.obj
+ 0001:0000ba0b       _manual_input              1000ca0b f   lua.obj
+ 0001:0000bb7b       _getstacksize              1000cb7b f   lua.obj
+ 0001:0000bc9b       _register_getargs          1000cc9b f   lua.obj
+ 0001:0000bcde       _l_getargs                 1000ccde f   lua.obj
+ 0001:0000aef9       _init_entry                1000bef9 f   ltm.obj
+ 0001:0000b05f       _checktag                  1000c05f f   ltm.obj
+ 0001:0000b17e       _luaI_checkevent           1000c17e f   ltm.obj
+ 0001:0000b1eb       _findevent                 1000c1eb f   ltm.obj
+ 0001:0000a79e       _luaH_getany               1000b79e f   ltable.obj
+ 0001:0000a9c7       _setnodevector             1000b9c7 f   ltable.obj
+ 0001:0000ac46       _rehash                    1000bc46 f   ltable.obj
+ 0001:0000ad5b       _numuse                    1000bd5b f   ltable.obj
+ 0001:0000a3a2       _hash_s                    1000b3a2 f   lstring.obj
+ 0001:0000a3fe       _newentry                  1000b3fe f   lstring.obj
+ 0001:00009eb6       _f_luaopen                 1000aeb6 f   lstate.obj
+ 0001:00009f64       _errormessage              1000af64 f   lstate.obj
+ 0001:000074c5       _next                      100084c5 f   lparser.obj
+ 0001:00007529       _check_condition           10008529 f   lparser.obj
+ 0001:00007544       _open_func                 10008544 f   lparser.obj
+ 0001:0000760e       _close_func                1000860e f   lparser.obj
+ 0001:00007779       _removelocalvars           10008779 f   lparser.obj
+ 0001:000077d4       _chunk                     100087d4 f   lparser.obj
+ 0001:0000781b       _optional                  1000881b f   lparser.obj
+ 0001:00007840       _block_follow              10008840 f   lparser.obj
+ 0001:0000789c       _stat                      1000889c f   lparser.obj
+ 0001:00007afa       _check_match               10008afa f   lparser.obj
+ 0001:00007b8f       _error_expected            10008b8f f   lparser.obj
+ 0001:00007bcf       _block                     10008bcf f   lparser.obj
+ 0001:00007c26       _whilestat                 10008c26 f   lparser.obj
+ 0001:00007cf5       _check                     10008cf5 f   lparser.obj
+ 0001:00007d21       _enterbreak                10008d21 f   lparser.obj
+ 0001:00007d51       _leavebreak                10008d51 f   lparser.obj
+ 0001:00007d81       _cond                      10008d81 f   lparser.obj
+ 0001:00007dab       _expr                      10008dab f   lparser.obj
+ 0001:00007dc2       _subexpr                   10008dc2 f   lparser.obj
+ 0001:00007eb2       _simpleexp                 10008eb2 f   lparser.obj
+ 0001:00008123       _code_string               10009123 f   lparser.obj
+ 0001:00008148       _string_constant           10009148 f   lparser.obj
+ 0001:000081e3       _var_or_func               100091e3 f   lparser.obj
+ 0001:0000825f       _str_checkname             1000925f f   lparser.obj
+ 0001:000082a0       _singlevar                 100092a0 f   lparser.obj
+ 0001:000082fe       _search_local              100092fe f   lparser.obj
+ 0001:00008397       _pushupvalue               10009397 f   lparser.obj
+ 0001:0000843d       _indexupvalue              1000943d f   lparser.obj
+ 0001:000084f9       _var_or_func_tail          100094f9 f   lparser.obj
+ 0001:0000877c       _checkname                 1000977c f   lparser.obj
+ 0001:0000879d       _funcargs                  1000979d f   lparser.obj
+ 0001:0000888c       _explist1                  1000988c f   lparser.obj
+ 0001:00008904       _constructor               10009904 f   lparser.obj
+ 0001:000089f4       _constructor_part          100099f4 f   lparser.obj
+ 0001:00008b78       _lookahead                 10009b78 f   lparser.obj
+ 0001:00008b96       _recfields                 10009b96 f   lparser.obj
+ 0001:00008c38       _recfield                  10009c38 f   lparser.obj
+ 0001:00008cc8       _listfields                10009cc8 f   lparser.obj
+ 0001:00008dae       _exp1                      10009dae f   lparser.obj
+ 0001:00008dda       _getunopr                  10009dda f   lparser.obj
+ 0001:00008e09       _getbinopr                 10009e09 f   lparser.obj
+ 0001:00008fcb       _repeatstat                10009fcb f   lparser.obj
+ 0001:00009063       _forstat                   1000a063 f   lparser.obj
+ 0001:00009117       _fornum                    1000a117 f   lparser.obj
+ 0001:000091d6       _new_localvar              1000a1d6 f   lparser.obj
+ 0001:00009230       _luaI_registerlocalvar     1000a230 f   lparser.obj
+ 0001:0000929e       _new_localvarstr           1000a29e f   lparser.obj
+ 0001:000092c7       _forbody                   1000a2c7 f   lparser.obj
+ 0001:0000937b       _adjustlocalvars           1000a37b f   lparser.obj
+ 0001:000093d6       _forlist                   1000a3d6 f   lparser.obj
+ 0001:000094ab       _ifstat                    1000a4ab f   lparser.obj
+ 0001:000095d8       _test_then_block           1000a5d8 f   lparser.obj
+ 0001:00009616       _localstat                 1000a616 f   lparser.obj
+ 0001:000096b6       _adjust_mult_assign        1000a6b6 f   lparser.obj
+ 0001:00009730       _funcstat                  1000a730 f   lparser.obj
+ 0001:0000977d       _funcname                  1000a77d f   lparser.obj
+ 0001:0000980d       _namestat                  1000a80d f   lparser.obj
+ 0001:00009889       _assignment                1000a889 f   lparser.obj
+ 0001:00009985       _retstat                   1000a985 f   lparser.obj
+ 0001:000099e8       _breakstat                 1000a9e8 f   lparser.obj
+ 0001:00009a7d       _body                      1000aa7d f   lparser.obj
+ 0001:00009b3d       _pushclosure               1000ab3d f   lparser.obj
+ 0001:00009c08       _parlist                   1000ac08 f   lparser.obj
+ 0001:00009cce       _code_params               1000acce f   lparser.obj
+ 0001:000059a9       _luaX_invalidchar          100069a9 f   llex.obj
+ 0001:000059de       _inclinenumber             100069de f   llex.obj
+ 0001:00005a76       _readname                  10006a76 f   llex.obj
+ 0001:00005bc8       _read_number               10006bc8 f   llex.obj
+ 0001:00006183       _read_long_string          10007183 f   llex.obj
+ 0001:000066e8       _read_string               100076e8 f   llex.obj
+ 0001:000042f5       _collectproto              100052f5 f   lgc.obj
+ 0001:00004352       _collectclosure            10005352 f   lgc.obj
+ 0001:000043af       _collecttable              100053af f   lgc.obj
+ 0001:0000440c       _collectstrings            1000540c f   lgc.obj
+ 0001:000044de       _checktab                  100054de f   lgc.obj
+ 0001:0000451c       _collectudata              1000551c f   lgc.obj
+ 0001:0000460b       _callgcTMudata             1000560b f   lgc.obj
+ 0001:0000469f       _callgcTM                  1000569f f   lgc.obj
+ 0001:00004773       _luaC_collectgarbage       10005773 f   lgc.obj
+ 0001:000047c9       _markall                   100057c9 f   lgc.obj
+ 0001:00004909       _markstack                 10005909 f   lgc.obj
+ 0001:00004941       _marklock                  10005941 f   lgc.obj
+ 0001:00004996       _marktagmethods            10005996 f   lgc.obj
+ 0001:00004a06       _markclosure               10005a06 f   lgc.obj
+ 0001:00004a44       _protomark                 10005a44 f   lgc.obj
+ 0001:00004b3f       _markobject                10005b3f f   lgc.obj
+ 0001:00004bec       _invalidaterefs            10005bec f   lgc.obj
+ 0001:00004c4f       _hasmark                   10005c4f f   lgc.obj
+ 0001:00004cc5       _checkMbuffer              10005cc5 f   lgc.obj
+ 0001:000040f3       _protosize                 100050f3 f   lfunc.obj
+ 0001:000034fb       _dohook                    100044fb f   ldo.obj
+ 0001:000035b1       _luaD_openstack            100045b1 f   ldo.obj
+ 0001:0000383c       _luaD_callHook             1000483c f   ldo.obj
+ 0001:0000387c       _callCclosure              1000487c f   ldo.obj
+ 0001:0000397d       _f_call                    1000497d f   ldo.obj
+ 0001:000039db       _parse_file                100049db f   ldo.obj
+ 0001:00003b51       _protectedparser           10004b51 f   ldo.obj
+ 0001:00003bc3       _f_parser                  10004bc3 f   ldo.obj
+ 0001:00003c5f       _parse_buffer              10004c5f f   ldo.obj
+ 0001:00003d67       _message                   10004d67 f   ldo.obj
+ 0001:00003f40       _restore_stack_limit       10004f40 f   ldo.obj
+ 0001:000024e3       _aux_stackedfunction       100034e3 f   ldebug.obj
+ 0001:000026cf       _currentpc                 100036cf f   ldebug.obj
+ 0001:00002706       _getluaproto               10003706 f   ldebug.obj
+ 0001:00002737       _isLmark                   10003737 f   ldebug.obj
+ 0001:000029c3       _setnormalized             100039c3 f   ldebug.obj
+ 0001:00002a05       _nups                      10003a05 f   ldebug.obj
+ 0001:00002a3f       _currentline               10003a3f f   ldebug.obj
+ 0001:00002a91       _funcinfo                  10003a91 f   ldebug.obj
+ 0001:00002b49       _infoLproto                10003b49 f   ldebug.obj
+ 0001:00002b73       _getname                   10003b73 f   ldebug.obj
+ 0001:00002bed       _travtagmethods            10003bed f   ldebug.obj
+ 0001:00002c62       _travglobals               10003c62 f   ldebug.obj
+ 0001:00002cdb       _getfuncname               10003cdb f   ldebug.obj
+ 0001:00002d7f       _getobjname                10003d7f f   ldebug.obj
+ 0001:00002e97       _luaG_symbexec             10003e97 f   ldebug.obj
+ 0001:00003235       _pushpc                    10004235 f   ldebug.obj
+ 0001:0000130c       _number_constant           1000230c f   lcode.obj
+ 0001:00001443       _previous_instruction      10002443 f   lcode.obj
+ 0001:00001572       _luaK_patchlistaux         10002572 f   lcode.obj
+ 0001:00001622       _luaK_fixjump              10002622 f   lcode.obj
+ 0001:000016a6       _luaK_getjump              100026a6 f   lcode.obj
+ 0001:0000175d       _luaK_testgo               1000275d f   lcode.obj
+ 0001:00001855       _discharge1                10002855 f   lcode.obj
+ 0001:0000188a       _discharge                 1000288a f   lcode.obj
+ 0001:0000191e       _invertjump                1000291e f   lcode.obj
+ 0001:00001b64       _need_value                10002b64 f   lcode.obj
+ 0001:00001ba5       _code_label                10002ba5 f   lcode.obj
+ 0001:00001cf8       _luaK_goiffalse            10002cf8 f   lcode.obj
+ 0001:0000239d       _codelineinfo              1000339d f   lcode.obj
+ 0001:0000025a       _luaA_indexAcceptable      1000125a f   lapi.obj

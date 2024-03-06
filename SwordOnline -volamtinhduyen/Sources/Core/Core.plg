@@ -1,0 +1,283 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Core - Win32 Server Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\anh thu bao chau\AppData\Local\Temp\RSPB4CC.tmp" with contents
+[
+/nologo /MTd /W2 /Gm /GX /Zi /Od /I "..\engine\src" /I "..\engine\include" /I "..\Network" /I "..\..\Headers" /D "_DEBUG" /D "_SERVER" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CORE_EXPORTS" /FR"ServerDebug/" /Fp"ServerDebug/Core.pch" /Yu"KCore.h" /Fo"ServerDebug/" /Fd"ServerDebug/" /FD /LD /GZ /c 
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KPartnerSkill.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KPlayerPartner.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KThiefSkill.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KMissle.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KMissleRes.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KMissleSet.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KSkillList.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KSkillManager.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KSkills.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KSkillSpecial.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KNpc.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KNpcAI.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KNpcAttribModify.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KNpcDeathCalcExp.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KNpcFindPath.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KNpcGold.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KNpcRes.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KNpcResList.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KNpcResNode.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KNpcSet.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KNpcTemplate.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KFaction.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KPlayer.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KPlayerChat.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KPlayerDBFuns.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KPlayerFaction.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KPlayerMenuState.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KPlayerPK.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KPlayerSet.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KPlayerTask.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KPlayerTeam.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KPlayerTong.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KPlayerTrade.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KSprControl.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KBasPropTbl.CPP"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KBuySell.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KInventory.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KItem.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KItemChangeRes.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KItemGenerator.CPP"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KItemList.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KItemSet.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KObj.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KObjSet.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KViewItem.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KCore.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KSubWorld.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KSubWorldSet.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KWeatherMgr.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KRegion.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KWorldMsg.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KMath.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KGMProcess.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KNewProtocolProcess.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KProtocol.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KProtocolProcess.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\ScriptFuns.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KScriptValueSet.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KSortScript.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\src\CoreServerShell.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\Scene\KWeather.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KMagicDesc.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KGMCommand.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KMission.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KTaskFuns.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KOption.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KMapMusic.cpp"
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\KLadder.cpp"
+]
+Creating command line "cl.exe @"C:\Users\anh thu bao chau\AppData\Local\Temp\RSPB4CC.tmp"" 
+Creating temporary file "C:\Users\anh thu bao chau\AppData\Local\Temp\RSPB4CD.tmp" with contents
+[
+/nologo /MTd /W2 /Gm /GX /Zi /Od /I "..\engine\src" /I "..\engine\include" /I "..\Network" /I "..\..\Headers" /D "_DEBUG" /D "_SERVER" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CORE_EXPORTS" /FR"ServerDebug/" /Fp"ServerDebug/Core.pch" /Yc"KCore.h" /Fo"ServerDebug/" /Fd"ServerDebug/" /FD /LD /GZ /c 
+"D:\src tinh duyen\SwordOnline\SwordOnline -volamtinhduyen\SwordOnline -volamtinhduyen\Sources\Core\Src\stdafx.cpp"
+]
+Creating command line "cl.exe @"C:\Users\anh thu bao chau\AppData\Local\Temp\RSPB4CD.tmp"" 
+Creating temporary file "C:\Users\anh thu bao chau\AppData\Local\Temp\RSPB4CE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib lualibdll.lib Ws2_32.lib Winmm.lib Shlwapi.lib /nologo /dll /incremental:no /pdb:"ServerDebug/CoreServer.pdb" /map:"ServerDebug/CoreServer.map" /debug /machine:I386 /nodefaultlib:"libc.lib" /nodefaultlib:"libcmt.lib" /nodefaultlib:"msvcrt.lib" /nodefaultlib:"libcd.lib" /nodefaultlib:"msvcrtd.lib" /out:"ServerDebug\CoreServer.dll" /implib:"ServerDebug/CoreServer.lib" /pdbtype:sept /libpath:"../../lib/" 
+".\ServerDebug\KPartnerSkill.obj"
+".\ServerDebug\KPlayerPartner.obj"
+".\ServerDebug\KThiefSkill.obj"
+".\ServerDebug\KMissle.obj"
+".\ServerDebug\KMissleRes.obj"
+".\ServerDebug\KMissleSet.obj"
+".\ServerDebug\KSkillList.obj"
+".\ServerDebug\KSkillManager.obj"
+".\ServerDebug\KSkills.obj"
+".\ServerDebug\KSkillSpecial.obj"
+".\ServerDebug\KNpc.obj"
+".\ServerDebug\KNpcAI.obj"
+".\ServerDebug\KNpcAttribModify.obj"
+".\ServerDebug\KNpcDeathCalcExp.obj"
+".\ServerDebug\KNpcFindPath.obj"
+".\ServerDebug\KNpcGold.obj"
+".\ServerDebug\KNpcRes.obj"
+".\ServerDebug\KNpcResList.obj"
+".\ServerDebug\KNpcResNode.obj"
+".\ServerDebug\KNpcSet.obj"
+".\ServerDebug\KNpcTemplate.obj"
+".\ServerDebug\KFaction.obj"
+".\ServerDebug\KPlayer.obj"
+".\ServerDebug\KPlayerChat.obj"
+".\ServerDebug\KPlayerDBFuns.obj"
+".\ServerDebug\KPlayerFaction.obj"
+".\ServerDebug\KPlayerMenuState.obj"
+".\ServerDebug\KPlayerPK.obj"
+".\ServerDebug\KPlayerSet.obj"
+".\ServerDebug\KPlayerTask.obj"
+".\ServerDebug\KPlayerTeam.obj"
+".\ServerDebug\KPlayerTong.obj"
+".\ServerDebug\KPlayerTrade.obj"
+".\ServerDebug\KSprControl.obj"
+".\ServerDebug\KBasPropTbl.obj"
+".\ServerDebug\KBuySell.obj"
+".\ServerDebug\KInventory.obj"
+".\ServerDebug\KItem.obj"
+".\ServerDebug\KItemChangeRes.obj"
+".\ServerDebug\KItemGenerator.obj"
+".\ServerDebug\KItemList.obj"
+".\ServerDebug\KItemSet.obj"
+".\ServerDebug\KObj.obj"
+".\ServerDebug\KObjSet.obj"
+".\ServerDebug\KViewItem.obj"
+".\ServerDebug\KCore.obj"
+".\ServerDebug\KSubWorld.obj"
+".\ServerDebug\KSubWorldSet.obj"
+".\ServerDebug\KWeatherMgr.obj"
+".\ServerDebug\KRegion.obj"
+".\ServerDebug\KWorldMsg.obj"
+".\ServerDebug\KMath.obj"
+".\ServerDebug\KGMProcess.obj"
+".\ServerDebug\KNewProtocolProcess.obj"
+".\ServerDebug\KProtocol.obj"
+".\ServerDebug\KProtocolProcess.obj"
+".\ServerDebug\ScriptFuns.obj"
+".\ServerDebug\KScriptValueSet.obj"
+".\ServerDebug\KSortScript.obj"
+".\ServerDebug\CoreServerShell.obj"
+".\ServerDebug\KWeather.obj"
+".\ServerDebug\KMagicDesc.obj"
+".\ServerDebug\KGMCommand.obj"
+".\ServerDebug\KMission.obj"
+".\ServerDebug\KTaskFuns.obj"
+".\ServerDebug\KOption.obj"
+".\ServerDebug\KMapMusic.obj"
+".\ServerDebug\KLadder.obj"
+".\ServerDebug\stdafx.obj"
+"..\..\Lib\debug\engine.lib"
+"..\..\Lib\debug\common.lib"
+".\Src\USBKey\EP1KDL20.LIB"
+".\Src\USBKey\EpsForJoLib.lib"
+]
+Creating command line "link.exe @"C:\Users\anh thu bao chau\AppData\Local\Temp\RSPB4CE.tmp""
+<h3>Output Window</h3>
+Compiling...
+stdafx.cpp
+Compiling...
+KPartnerSkill.cpp
+KPlayerPartner.cpp
+KThiefSkill.cpp
+KMissle.cpp
+KMissleRes.cpp
+KMissleSet.cpp
+KSkillList.cpp
+KSkillManager.cpp
+KSkills.cpp
+KSkillSpecial.cpp
+KNpc.cpp
+KNpcAI.cpp
+KNpcAttribModify.cpp
+KNpcDeathCalcExp.cpp
+KNpcFindPath.cpp
+KNpcGold.cpp
+KNpcRes.cpp
+KNpcResList.cpp
+KNpcResNode.cpp
+KNpcSet.cpp
+Generating Code...
+Compiling...
+KNpcTemplate.cpp
+KFaction.cpp
+KPlayer.cpp
+KPlayerChat.cpp
+KPlayerDBFuns.cpp
+KPlayerFaction.cpp
+KPlayerMenuState.cpp
+KPlayerPK.cpp
+KPlayerSet.cpp
+KPlayerTask.cpp
+KPlayerTeam.cpp
+KPlayerTong.cpp
+KPlayerTrade.cpp
+KSprControl.cpp
+KBasPropTbl.CPP
+KBuySell.cpp
+KInventory.cpp
+KItem.cpp
+KItemChangeRes.cpp
+KItemGenerator.CPP
+Generating Code...
+Compiling...
+KItemList.cpp
+KItemSet.cpp
+KObj.cpp
+KObjSet.cpp
+KViewItem.cpp
+KCore.cpp
+KSubWorld.cpp
+KSubWorldSet.cpp
+KWeatherMgr.cpp
+KRegion.cpp
+KWorldMsg.cpp
+KMath.cpp
+KGMProcess.cpp
+KNewProtocolProcess.cpp
+KProtocol.cpp
+KProtocolProcess.cpp
+ScriptFuns.cpp
+KScriptValueSet.cpp
+KSortScript.cpp
+CoreServerShell.cpp
+Generating Code...
+C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\VC98\INCLUDE\list(131) : warning C4786: 'std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\VC98\INCLUDE\list(153) : warning C4786: 'std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::~list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<unsigned short,std::pair<unsigned short const ,void (__cdecl*)(IClient *,unsigned long,unsigned long,int,unsigned char *,int)>,std::map<unsigned short,void (__cdecl*)(IClient *,unsigned long,unsigned long,int,unsigned char *,int),std::less<unsigned short>,std::allocator<void (__cdecl*)(IClient *,unsigned long,unsigned long,int,unsigned char *,int)> >::_Kfn,std::less<unsigned short>,std::allocator<void (__cdecl*)(IClient *,unsigned long,unsigned long,int,unsigned char *,int)> >::iterator,bool>::pair<std::_Tree<unsigned short,std::pair<unsigned short const ,void (__cdecl*)(IClient *,unsigned long,unsigned long,int,unsigned char *,int)>,std::map<unsigned short,void (__cdecl*)(IClient *,unsigned long,unsigned long,int,unsigned char *,int),std::less<unsigned short>,std::allocator<void (__cdecl*)(IClient *,unsigned long,unsigned long,int,unsigned char *,int)> >::_Kfn,std::less<unsigned short>,std::allocator<void (__cdecl*)(IClient *,unsigned long,unsigned long,int,unsigned char *,int)> >::iterator,bool>' : identifier was truncated to '255' characters in the debug information
+Compiling...
+KWeather.cpp
+KMagicDesc.cpp
+KGMCommand.cpp
+KMission.cpp
+KTaskFuns.cpp
+KOption.cpp
+KMapMusic.cpp
+KLadder.cpp
+Generating Code...
+Linking...
+   Creating library ServerDebug/CoreServer.lib and object ServerDebug/CoreServer.exp
+ServerDebug\CoreServer.dll : warning LNK4084: total image size 678707200 exceeds max (268435456); image may not run
+Creating temporary file "C:\Users\anh thu bao chau\AppData\Local\Temp\RSPCE43.bat" with contents
+[
+@echo off
+md ..\..\lib\debug\
+copy ServerDebug\CoreServer.lib ..\..\lib\debug\CoreServer.lib
+md ..\..\..\bin\server\
+copy ServerDebug\CoreServer.map ..\..\..\bin\server\CoreServer.map
+copy ServerDebug\CoreServer.pdb ..\..\..\bin\server\CoreServer.pdb
+copy ServerDebug\CoreServer.dll ..\..\..\bin\server\CoreServer.dll
+md ..\..\..\bin\server\debug\
+copy ServerDebug\CoreServer.map ..\..\..\bin\server\debug\CoreServer.map
+copy ServerDebug\CoreServer.pdb ..\..\..\bin\server\debug\CoreServer.pdb
+copy ServerDebug\CoreServer.dll ..\..\..\bin\server\debug\CoreServer.dll
+]
+Creating command line ""C:\Users\anh thu bao chau\AppData\Local\Temp\RSPCE43.bat""
+
+A subdirectory or file ..\..\lib\debug\ already exists.
+        1 file(s) copied.
+A subdirectory or file ..\..\..\bin\server\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+CoreServer.dll - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
